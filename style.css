@@ -54,7 +54,7 @@ button, input, textarea { font: inherit; }
   justify-content: space-between;
   gap: 26px;
 }
-.brand img { width: 390px; max-width: 47vw; }
+.brand img { width: 350px; max-width: 46vw; height: auto; }
 .nav-links { display: flex; gap: 26px; align-items: center; font-size: .94rem; font-weight: 650; }
 .nav-links a { position: relative; color: #25344b; }
 .nav-links a.btn { color: #fff; }
@@ -268,7 +268,14 @@ button, input, textarea { font: inherit; }
 
 .site-footer { background:#07182e; color:#d7dfeb; padding:60px 0 30px; }
 .footer-grid { display:grid; grid-template-columns:1.4fr .8fr .8fr; gap:40px; }
-.footer-logo { width:340px; filter: brightness(0) invert(1); opacity:.92; }
+.footer-logo {
+  width: 360px;
+  max-width: 100%;
+  background: var(--paper);
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(215,180,106,.28);
+}
 .site-footer h4 { color:#fff; margin-top:0; }
 .site-footer a { color:#d7dfeb; display:block; margin:8px 0; }
 .footer-bottom { margin-top:44px; padding-top:24px; border-top:1px solid rgba(255,255,255,.1); font-size:.85rem; color:#aeb9c8; display:flex; justify-content:space-between; gap:18px; flex-wrap:wrap; }
