@@ -12,13 +12,13 @@ Site institucional estático, responsivo e preparado para hospedagem gratuita no
 - `script.js` — menu móvel e ano automático
 - `assets/logo-nb.svg` — lockup vetorial provisório baseado na identidade NB
 
-## Domínio planejado
+## Domínio principal
 www.natannaelbatista.adv.br
 
 ## Antes de publicar
-1. Substitua `assets/logo-nb.svg` pelo arquivo oficial da marca NB, se desejar fidelidade tipográfica absoluta.
+1. A versão web da marca NB foi ajustada para seguir a composição horizontal oficial; o arquivo gráfico original isolado ainda pode substituí-la futuramente para fidelidade tipográfica absoluta.
 2. Adicione fotografia profissional na seção Sobre.
-3. Atualize `contato.html` com WhatsApp e e-mail profissionais.
+3. Contatos profissionais já configurados: WhatsApp (75) 9 9725-0000 e contato@nbjadvocacia.com.br.
 4. Quando houver domínio próprio, acrescente canonical, sitemap e metadados sociais com o endereço definitivo.
 
 ## Publicação gratuita no Cloudflare Pages
